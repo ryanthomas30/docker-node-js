@@ -1,0 +1,29 @@
+{
+	"name": "docker-node",
+	"version": "1.0.0",
+	"description": "docker-node-js",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon --exec babel-node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ryanthomas30/docker-node-js.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ryanthomas30/docker-node-js/issues"
+	},
+	"homepage": "https://github.com/ryanthomas30/docker-node-js#readme",
+	"dependencies": {
+		"@babel/core": "^7.5.5",
+		"@babel/node": "^7.5.5",
+		"@babel/preset-env": "^7.5.5",
+		"@babel/register": "^7.5.5",
+		"eslint": "^5.16.0",
+		"express": "^4.17.1",
+		"nodemon": "^1.19.2"
+	}
+}
