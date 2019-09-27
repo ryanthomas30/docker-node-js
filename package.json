@@ -4,7 +4,7 @@
 	"description": "docker-node-js",
 	"main": "index.js",
 	"scripts": {
-		"start": "nodemon --exec babel-node index.js",
+		"start": "nodemon --exec babel-node src/index.js",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -24,6 +24,7 @@
 		"@babel/register": "^7.5.5",
 		"eslint": "^5.16.0",
 		"express": "^4.17.1",
-		"nodemon": "^1.19.2"
+		"nodemon": "^1.19.2",
+		"redis": "2.8.0"
 	}
 }
